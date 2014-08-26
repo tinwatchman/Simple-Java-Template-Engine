@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title><< document.title >></title>
+    </head>
+    <body>
+        <section id="bookshelf">
+            <h3><< bookshelf.heading >></h3>
+            <ul id="books">
+                << EACH bookshelf.books book >>
+                <li><strong><< book.title >></strong> <em>by << book.author >></em></li>
+                << ENDEACH >>
+            </ul>
+        </section>
+        <section id="chessboard">
+            <h3><< chessboard.heading >></h3>
+            <table>
+                << EACH chessboard.board row >>
+                <tr>
+                    << EACH row cell>>
+                    <td><< cell >></td>
+                    << ENDEACH >>
+                </tr>
+                << ENDEACH >>
+            </table>
+        </section>
+    </body>
+</html>

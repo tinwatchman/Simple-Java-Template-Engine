@@ -1,0 +1,26 @@
+{
+    "document": {
+        "title": "This is my title. There are many titles, but this one is mine."
+    },
+    "bookshelf": {
+        "heading": "What's on my bookshelf these days:",
+        "books": [
+            { "title": "Foundation", "author": "Isaac Asimov" },
+            { "title": "Hitchhiker's Guide to the Galaxy", "author": "Douglas Adams" },
+            { "title": "American Gods", "author": "Neil Gaiman" }
+        ]
+    },
+    "chessboard": {
+        "heading": "The Random Chessboard of Goodness",
+        "board": [
+            [" ", "X", " ", "X", " ", "X", " ", "X"],
+            ["X", " ", "X", " ", "X", " ", "X", " "],
+            [" ", "X", " ", "X", " ", "X", " ", "X"],
+            ["X", " ", "X", " ", "X", " ", "X", " "],
+            [" ", "X", " ", "X", " ", "X", " ", "X"],
+            ["X", " ", "X", " ", "X", " ", "X", " "],
+            [" ", "X", " ", "X", " ", "X", " ", "X"],
+            ["X", " ", "X", " ", "X", " ", "X", " "]
+        ]
+    }
+}
