@@ -5,14 +5,14 @@ Created for a job application. In short, a simple Java program that -- when give
 The templating language is fairly simple. To insert a property from the JSON data, one merely needs to surround it as follows:
 
 ```
-<span><< object.property.subproperty >></span>
+<< object.property.subproperty >>
 ```
 
 Basic for-each functionality is also provided:
 
 ```
 << EACH object.arrayProperty instanceName >>
-	<p><< instanceName.property >></p>
+	<span> << instanceName.property >> </span>
 << ENDEACH >>
 ```
 
