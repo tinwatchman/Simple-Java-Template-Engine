@@ -16,4 +16,4 @@ Basic for-each functionality is also provided:
 << ENDEACH >>
 ```
 
-Yes, the ENDEACH tag is required in order to end a for-each block. Bad stuff will happen otherwise. See bin/example.template for additional examples.
+Yes, the ENDEACH tag is required in order to end a for-each block. Bad stuff will happen otherwise. See **bin/example.template** for additional examples.
