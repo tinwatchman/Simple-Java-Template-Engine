@@ -47,8 +47,8 @@ public class EachTokenFactory {
 		}
 	}
 	
-	public void addLineToEachBlock(ITemplateItem line) {
-		getCurrentEach().appendContent(line);
+	public void addItemToEachBlock(ITemplateItem item) {
+		getCurrentEach().appendContent(item);
 	}
 	
 	public void closeEachBlock() {

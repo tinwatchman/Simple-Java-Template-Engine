@@ -87,14 +87,14 @@ public class TemplateFactory {
 				// now that we've got the line item, figure out where to put it
 				if (currentLineItem != null && eachFactory.isInEachBlock()) {
 					// if we're in an each block, add it to said each block
-					eachFactory.addLineToEachBlock(currentLineItem);
+					eachFactory.addItemToEachBlock(currentLineItem);
 				} else if (currentLineItem != null) {
 					// otherwise, just add the line item to the template
 					template.addItem(currentLineItem);
 				}
 				// let's add line breaks, just to make sure we match the template
 				if (index == len && eachFactory.isInEachBlock()) {
-					eachFactory.addLineToEachBlock(new TemplateLineBreak());
+					eachFactory.addItemToEachBlock(new TemplateLineBreak());
 				} else if (index == len) {
 					template.addItem(new TemplateLineBreak());
 				}
